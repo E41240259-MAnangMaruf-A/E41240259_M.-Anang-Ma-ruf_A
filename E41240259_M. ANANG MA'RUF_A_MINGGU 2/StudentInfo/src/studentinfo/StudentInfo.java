@@ -14,7 +14,21 @@ public class StudentInfo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // Deklarasi variabel
+        String fName = "Lisa";        // Nama depan
+        String IName = "Palombo";     // Nama belakang
+        String stuId = "123456789";   // ID siswa
+        String stuStatus = "Active";  // Status siswa
+
+        // Menampilkan informasi siswa
+        String StudentName = fName + " " + IName; 
+        System.out.println("===========================================");
+        System.out.println("            STUDENT INFORMATIONS         ");
+        System.out.println("===========================================");
+        System.out.println("Student Name   : " + StudentName);
+        System.out.println("Student ID     : " + stuId);
+        System.out.println("Student Status : " + stuStatus);
+        System.out.println("===========================================");
     }
     
 }
