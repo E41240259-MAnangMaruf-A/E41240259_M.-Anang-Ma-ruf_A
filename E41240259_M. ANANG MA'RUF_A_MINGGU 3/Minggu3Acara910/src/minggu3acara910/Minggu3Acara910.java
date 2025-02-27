@@ -10,9 +10,7 @@ package minggu3acara910;
  */
 public class Minggu3Acara910 {
 
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
         // TODO code application logic here
         // Deklarasi variabel
